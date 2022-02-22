@@ -7,8 +7,8 @@
 #define ARM_BTN 33
 
 // Selecciona uno según tu display.
-//SSD1306Wire display(0x3c, SDA, SCL, GEOMETRY_128_32);
-SSD1306Wire display(0x3c, SDA, SCL, GEOMETRY_64_48); 
+SSD1306Wire display(0x3c, SDA, SCL, GEOMETRY_128_32);
+//SSD1306Wire display(0x3c, SDA, SCL, GEOMETRY_64_48); 
 
 void setup() {
 
